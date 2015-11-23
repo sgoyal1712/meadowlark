@@ -9,20 +9,6 @@ app.set('view engine', 'handlebars');
 app.set('port', process.env.PORT || 3000);
 app.use(express.static(__dirname + '/public'));
 
-var fortunes = [
-"Conquer your fears or they will conquer you.",
-"Rivers need springs.",
-"Do not fear what you don't know.",
-"You will have a pleasant surprise.",
-"Whenever possible, keep it simple.",
-];
-//for testing 
-app.use(function(req, res, next){
-res.locals.showTests = app.get('env') !== 'production' &&
-req.query.test === '1';
-next();
-});
-
 // custom 404 page
 app.get('/', function(req, res) {
 res.render('home');
