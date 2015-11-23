@@ -1,0 +1,27 @@
+{
+  "name": "meadowlark",
+  "version": "0.0.0",
+  "description": "Sample website for Web Development with Node and Express (O'Reilly).",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgoyal1712/meadowlark.git"
+  },
+  "author": "Sagar Goyal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgoyal1712/meadowlark/issues"
+  },
+  "homepage": "https://github.com/sgoyal1712/meadowlark",
+  "dependencies": {
+    "express": "~4.4.2",
+    "express3-handlebars": "~0.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
